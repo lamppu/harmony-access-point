@@ -77,3 +77,9 @@ excludes:
   - pattern: "compileOnly"
     reason: "DEV_DEPENDENCY_OF"
     comment: "Packages for development only."
+
+resolutions:
+  vulnerabilities:
+  - id: "CVE-2016-1000027"
+    reason: "WILL_NOT_FIX_VULNERABILITY"
+    comment: "Test resolution."
